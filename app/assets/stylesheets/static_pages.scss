@@ -1,0 +1,16 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.navbar{
+	border-radius:0px;
+	.navbar-brand{
+		color: #fff;
+		font-weight: bold;
+		text-transform: uppercase;
+		@include transition(opacity .35s ease-in);
+		&:hover{
+			opacity: 0.8;
+		}
+	}
+
+}
