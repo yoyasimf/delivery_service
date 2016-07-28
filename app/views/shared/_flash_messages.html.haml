@@ -1,0 +1,6 @@
+- flash.each do |key, value|
+  = define_alert(key) do
+    = link_to "#", class: "close", data: {dismiss: "alert"} do
+      %span &times
+    %ul
+      %li= value
